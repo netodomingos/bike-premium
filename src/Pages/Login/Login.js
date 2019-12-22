@@ -19,7 +19,14 @@ const Login = () => {
                 <div className='login-container'>
                     <form>
                         <img className='chat' src={Logo} alt='logo' />
-                        <h2>Login</h2>
+                        <div className='buttonBox'>
+                            <Link to='/login'>
+                                <button className='toggle-btn login' id='btn'>Login</button>
+                            </Link>
+                            <Link to='/cadastro'>
+                                <button className='toggle-btn'>Cadastro</button>
+                            </Link>
+                        </div>
                         <div className='input-div one focus'>
                             <div className='username-container'>
                                 <h5>Email</h5>
