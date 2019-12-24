@@ -46,8 +46,8 @@ body{
 }
 
 .login-container .checkbox{
-    display: flex;
-    align-items: start;
+    display: flex-start;
+    /* align-items: start; */
 }
 
 .checkbox input{
@@ -64,6 +64,9 @@ form{
     height: 100px;
 }
 
+#email-input{
+    width: 350px;
+}
 
 .input-div{
     display: grid;
