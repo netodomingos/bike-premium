@@ -45,8 +45,8 @@ body{
 }
 
 .login-container .checkbox{
-    display: flex;
-    align-items: start;
+    display: flex-start;
+    /* align-items: start; */
 }
 
 .checkbox input{
