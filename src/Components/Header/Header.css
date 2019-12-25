@@ -1,0 +1,30 @@
+.header-top-1{
+    color: black;
+    background-color: #1db954;
+}
+.external-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.slogan p{
+    display: flex;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.social-media li{
+    display: inline-block;
+    margin-left: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.whatsApp-api{
+    margin-right: 15px;
+    text-decoration: none;
+    margin-top: 0;
+    color: #fff;
+    margin-top: 10px;
+}

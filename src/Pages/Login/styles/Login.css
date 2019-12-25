@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     
 }
 
@@ -122,7 +122,7 @@ form h2 {
     color: #555;
 }
 
-.btn{
+.btn1{
     display: block;
     width: 350px;
     height: 50px;
@@ -140,7 +140,7 @@ form h2 {
     text-transform: uppercase;
     text-decoration: none;
 }
-.btn:hover{
+.btn1:hover{
     background-position: right;
 }
 
@@ -149,29 +149,31 @@ form h2 {
 }
 
 .buttonBox{
+    display: flex;
+    justify-content: space-around;
     width: 280px;
     margin: 35px auto;
-    position: relative;
+    /* position: relative; */
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 
 }
 
 
-.toggle-btn{
+.toggle-btn1{
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
-    position: relative;
+    /* position: relative; */
 }
 
 .login{
     color: #fff;
 }
 
-#btn{
+#btn1{
     top: 0;
     left: 0;
     position: relative;

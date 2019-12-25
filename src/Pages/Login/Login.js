@@ -20,11 +20,11 @@ const Login = () => {
                     <form>
                         <img className='chat' src={Logo} alt='logo' />
                         <div className='buttonBox'>
-                            <Link to='/login'>
-                                <button className='toggle-btn login' id='btn'>Login</button>
+                            <Link style={{textDecoration:'none'}} to='/login'>
+                                <button className='toggle-btn1 login' id='btn1'>Login</button>
                             </Link>
-                            <Link to='/cadastro'>
-                                <button className='toggle-btn'>Cadastro</button>
+                            <Link style={{textDecoration:'none'}} to='/cadastro'>
+                                <button className='toggle-btn1'>Cadastro</button>
                             </Link>
                         </div>
                         <div className='input-div one focus'>
@@ -43,10 +43,10 @@ const Login = () => {
                             <input type='checkbox'/> <span>Manter-se Logado</span>
                         </div>
                         <Link style={{ textDecoration: 'none' }}>
-                            <button type='submit' className='btn'>LOGIN</button>
+                            <button type='submit' className='btn1'>LOGIN</button>
                         </Link>
                         <div className='cadastre'>
-                            <span>Não possui cadastro? </span><Link to='/cadastro' className='link' style={{ textDecoration: 'none', color:'#32be32' }} >Clique Aqui!</Link>
+                            <span>Não possui cadastro? </span><Link to='/cadastro' className='link' style={{ textDecoration: 'none', color:'#32be32' }}>Clique Aqui!</Link>
                         </div>
                     </form>
                 </div>
