@@ -18,7 +18,7 @@ function App() {
           <Route path='/login' component={Login} />
           <Route path='/cadastro' component={Cadastro}/>
           <Route path='/cart' component={Cart} />
-          <Route path='/Details' component={Details}/>
+          <Route path='/details' component={Details}/>
           <Route component={Default}/>
         </Switch>
       </Router>
