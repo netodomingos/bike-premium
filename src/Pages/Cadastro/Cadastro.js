@@ -93,8 +93,8 @@ class Cadastro extends Component {
                             <div className='checkbox'>
                                 <input type='checkbox'/> <span>Manter-se Logado</span>
                             </div>
-                            <Link style={{ textDecoration: 'none' }}>
-                                <button type='submit' className='btn'>LOGIN</button>
+                            <Link style={{ textDecoration: 'none', color: '#fff' }}>
+                                <button type='submit' className='btn' id='buttonLogin'>LOGIN</button>
                             </Link>
                         </form>
                     </div>

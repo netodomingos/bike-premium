@@ -100,7 +100,6 @@ form{
     border: none;
     background-image: linear-gradient(to right, #32be32, #38b35d, #1db954);
     cursor: pointer;
-    color: #fff;
     font-family: 'Poppins', sans-serif;
     background-size: 200%;
     transition: .5s;
@@ -116,9 +115,10 @@ form{
 }
 
 .buttonBox{
+    display: flex;
+    justify-content: space-around;
     width: 280px;
     margin: 35px auto;
-    position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 }
@@ -130,7 +130,7 @@ form{
     background: transparent;
     border: 0;
     outline: none;
-    position: relative;
+    margin-left: 16px;
 }
 
 .cadastro{
@@ -146,6 +146,11 @@ form{
     background: linear-gradient(to right, #32be32, #38b35d, #1db954);
     border-radius: 30px;
     transition: .5s;
+
+}
+
+#buttonLogin{
+    color: #fff;
 }
 
 @media screen and (max-width: 1050px){
