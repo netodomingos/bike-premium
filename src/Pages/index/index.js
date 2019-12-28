@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 import './styles/index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Header from '../../Components/Header/Header.js'
-import Search from '../../Components/Search-Header/Search.js'
+import Header from '../../Components/Header/Header'
 
 export default class Index extends Component{
 
@@ -12,7 +11,6 @@ export default class Index extends Component{
         return(
             <React.Fragment>
                 <Header/>
-                <Search/>
             </React.Fragment>
         )
     }

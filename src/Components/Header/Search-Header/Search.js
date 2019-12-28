@@ -51,7 +51,7 @@ export default class Search extends Component{
                 <ul>
                     <li>
                     <button className="btn btn-outline-success button">
-                        <i className="fas fa-shopping-cart ">  
+                        <i className="fas fa-shopping-cart" style={{color: '#fff'}}>  
                         </i>
                     </button>
                     </li>
