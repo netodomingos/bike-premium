@@ -12,7 +12,6 @@ export default class Default extends Component{
                 <h1>Oops! Page not Found.</h1>
                 <img src={notFound} alt='NotFound'/>
                 <p>We can't find page you're looking for.</p>
-                
                 <Link to='/'>
                     <button>Back to Home</button>
                 </Link>
