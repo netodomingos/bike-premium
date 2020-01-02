@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import notFound from './img/notFound.png'
+import Ciclista from './img/Ciclista.png'
 
 import './Styles/Default.css'
 
@@ -9,11 +9,11 @@ export default class Default extends Component{
     render(){
         return (
             <div className='container'>
-                <h1>Oops! Page not Found.</h1>
-                <img src={notFound} alt='NotFound'/>
-                <p>We can't find page you're looking for.</p>
+                <h1>Oops! Algo errado aconteceu.</h1>
+                <img src={Ciclista} alt='NotFound'/>
+                <p>Nós não achamos o endereço na qual você procurou, recomendamos retornar para a página principal.</p>
                 <Link to='/'>
-                    <button>Back to Home</button>
+                    <button>Página Principal</button>
                 </Link>
             </div>
         )

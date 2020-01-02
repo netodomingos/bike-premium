@@ -4,6 +4,7 @@ import './styles/Main.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Header from '../../Components/Header/Header'
+import BikeMenu from '../../Components/bikes-menu/BikeMenu'
 import ProductList from '../../Components/Products/ProductList'
 
 import AwesomeSlider from 'react-awesome-slider'
@@ -18,13 +19,11 @@ export default class Main extends Component{
         return(
             <React.Fragment>
                 <Header/>
-                <AwesomeSlider
-                    className='awesome-slider aws-btn'
-                    cssModule={Main}
-                    >
-                        <div data-src={bike} />
-                        <div data-src={caloi}/>
+                <AwesomeSlider className='awesome-slider' cssModule={Main} >
+                    <div data-src={bike} />
+                    <div data-src={caloi}/>
                 </AwesomeSlider>
+                <BikeMenu/>
                 <ProductList/>
             </React.Fragment>
         )

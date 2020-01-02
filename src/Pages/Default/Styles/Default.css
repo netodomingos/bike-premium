@@ -14,18 +14,22 @@ body{
   }
   
   .container h1{
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
     font-weight: 800;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
     margin-top: 20px;
   }
 
   .container img{
-      width: 650px;
-      height: 400px;
+      width: 700px;
+      height: 500px;
       margin-left: 20%;
       margin-top: 10px;
+  }
+
+  .container p {
+    border-bottom: 2px solid #1db954;
   }
 
   .container button{
@@ -36,7 +40,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    width: 160px;
+    width: 180px;
     font-size: 14px;
     text-transform: uppercase;
     transition: 0.4s;

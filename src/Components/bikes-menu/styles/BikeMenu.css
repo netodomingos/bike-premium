@@ -1,0 +1,24 @@
+.bikes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.bike img:hover{
+    transform: translateY(-10%);
+    transition: .3s;
+}
+
+.bike p {
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+}
+
+.bikes a {
+    text-decoration: none;
+}
