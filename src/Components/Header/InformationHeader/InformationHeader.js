@@ -18,7 +18,7 @@ export default class Header extends Component{
                                     <i className="fab fa-facebook-f"></i>
                                 </li>
                                 <li>
-                                    <i className="fab fa-twitter"></i>
+                                    <i class="fab fa-youtube"></i>
                                 </li>
                             </ul>
                         </div>

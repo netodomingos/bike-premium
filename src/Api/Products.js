@@ -33,7 +33,7 @@ export const storeProducts = [
         "Bicicleta Dropp Aro 29 com quadro em Alumínio Equipada com Freio a Disco e 21 Marchas. O Melhor Custo Benefício !",
       inCart: false,
       count: 0,
-      total: 0
+      total: 0,
     },
     {
         id: 4,

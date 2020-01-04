@@ -17,15 +17,18 @@ export default class Main extends Component{
 
     render(){
         return(
-            <React.Fragment>
-                <Header/>
-                <AwesomeSlider className='awesome-slider' cssModule={Main} >
-                    <div data-src={bike} />
-                    <div data-src={caloi}/>
-                </AwesomeSlider>
-                <BikeMenu/>
-                <ProductList/>
-            </React.Fragment>
+            <div className='main'>
+                <React.Fragment>
+                    <Header/>
+                    <AwesomeSlider className='awesome-slider' cssModule={Main} >
+                        <div data-src={bike} />
+                        <div data-src={caloi}/>
+                    </AwesomeSlider>
+                    <BikeMenu/>
+                    
+                    <ProductList/>
+                </React.Fragment>
+            </div>
         )
     }
 }
