@@ -13,7 +13,7 @@ export default class BikeMenu extends Component {
         return (
             <div className='bike-menu'>
                 <h3 className='mt-5'>Qual é o seu</h3>
-                <h3>objetivo?</h3>
+                <h3>objetivo ?</h3>
                 <div className='bikes'>
                     <Link to='/montagem/asfalto'>
                         <div className='bike'>

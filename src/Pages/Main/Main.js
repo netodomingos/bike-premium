@@ -4,14 +4,10 @@ import './styles/Main.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Header from '../../Components/Header/Header'
+import Carousel from '../../Components/Carousel/Carousel'
 import BikeMenu from '../../Components/bikes-menu/BikeMenu'
-import ProductList from '../../Components/Products/ProductList'
-
-import AwesomeSlider from 'react-awesome-slider'
-import  'react-awesome-slider/dist/styles.css';
-
-import bike from './img/bike.jpg'
-import caloi from './img/caloi.png'
+// import ProductList from '../../Components/Products/ProductList'
+import Card from '../../Components/Card/Card'
 
 export default class Main extends Component{
 
@@ -20,13 +16,12 @@ export default class Main extends Component{
             <div className='main'>
                 <React.Fragment>
                     <Header/>
-                    <AwesomeSlider className='awesome-slider' cssModule={Main} >
-                        <div data-src={bike} />
-                        <div data-src={caloi}/>
-                    </AwesomeSlider>
+                    <Carousel/>
                     <BikeMenu/>
                     
-                    <ProductList/>
+                    {/* <ProductList/> */}
+                    <Card/>
+
                 </React.Fragment>
             </div>
         )
