@@ -13,7 +13,7 @@ export default function Card() {
                     <p>Destaque da Semana!</p>
                     </div>
                     <h5><strong>BICICLETA GTS ARO 29</strong> FREIO HIDRÁULICO CÂMBIOS GTS 24 MARCHAS</h5>
-                    <img src={Product1} />
+                    <img src={Product1} alt='bike'/>
                     <p className='short-description'>BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE...</p>
                     <p className='price'>1290.00</p>
                 </div>
@@ -23,7 +23,7 @@ export default function Card() {
                     <p>Destaque da Semana!</p>
                     </div>
                     <h5><strong>BICICLETA GTS ARO 29</strong> FREIO HIDRÁULICO CÂMBIOS GTS 24 MARCHAS</h5>
-                    <img src={Product1} />
+                    <img src={Product1} alt='bike'/>
                     <p className='short-description'>BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE...</p>
                     <p className='price'>1290.00</p>
                 </div>
@@ -33,7 +33,7 @@ export default function Card() {
                     <p>Destaque da Semana!</p>
                     </div>
                     <h5><strong>BICICLETA GTS ARO 29</strong> FREIO HIDRÁULICO CÂMBIOS GTS 24 MARCHAS</h5>
-                    <img src={Product1} />
+                    <img src={Product1} alt='bike'/>
                     <p className='short-description'>BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE...</p>
                     <p className='price'>1290.00</p>
                 </div>
@@ -43,7 +43,7 @@ export default function Card() {
                     <p>Destaque da Semana!</p>
                     </div>
                     <h5><strong>BICICLETA GTS ARO 29</strong> FREIO HIDRÁULICO CÂMBIOS GTS 24 MARCHAS</h5>
-                    <img src={Product1} />
+                    <img src={Product1} alt='bike'/>
                     <p className='short-description'>BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE...</p>
                     <p className='price'>1290.00</p>
                 </div>
