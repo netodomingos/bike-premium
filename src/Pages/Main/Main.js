@@ -4,11 +4,14 @@ import './styles/Main.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Header from '../../Components/Header/Header'
-import Publicidade from '../../Components/Publicidade/Publicidade'
+import PublicidadeHeader from '../../Components/Publicidade/PublicadadeHeader/PublicidadeHeader'
 import Carousel from '../../Components/Carousel/Carousel'
 import BikeMenu from '../../Components/bikes-menu/BikeMenu'
 // import ProductList from '../../Components/Products/ProductList'
-import Card from '../../Components/Card/Card'
+import Board from '../../Components/Board/Board'
+import PublicadadeMain from '../../Components/Publicidade/PublicidadeMain/PublidadeMain'
+import Quadrado from '../../Components/Publicidade/PublicidadeQuadrado/Quadrado'
+import PublicidadeFinal from '../../Components/Publicidade/PublicadeFinal/PublicidadeFinal'
 
 export default class Main extends Component{
 
@@ -17,13 +20,16 @@ export default class Main extends Component{
             <div className='main'>
                 <React.Fragment>
                     <Header/>
-                    <Publicidade/>
+                    <PublicidadeHeader/>
                     <Carousel/>
                     <BikeMenu/>
-                    
-                    {/* <ProductList/> */}
-                    <Card/>
-
+                    <Board/>
+                    <PublicadadeMain/>
+                    <Board/>
+                    <Quadrado/>
+                    <Board/>
+                    <Board/>
+                    <PublicidadeFinal/>
                 </React.Fragment>
             </div>
         )

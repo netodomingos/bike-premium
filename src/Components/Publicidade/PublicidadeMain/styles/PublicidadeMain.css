@@ -1,0 +1,13 @@
+.banners{
+    margin-top: 30px;
+}
+
+.bannersMain{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.bannersMain img{
+    width: 600px;
+}

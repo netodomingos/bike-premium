@@ -12,13 +12,19 @@ export default class Header extends Component{
                         <div className="social-media-div">
                             <ul className="social-media">
                                 <li>
-                                    <i className="fab fa-instagram"></i>
+                                    <a href='https://www.instagram.com/nexus.dev/' style={{textDecoration: 'none', color: '#fff'}}>
+                                        <i className="fab fa-instagram"></i>    
+                                    </a>
                                 </li>
                                 <li>
-                                    <i className="fab fa-facebook-f"></i>
+                                    <a href='#' style={{textDecoration: 'none', color: '#fff'}}>
+                                        <i className="fab fa-facebook-f"></i>
+                                    </a>
                                 </li>
                                 <li>
-                                    <i class="fab fa-youtube"></i>
+                                    <a href='#'style={{textDecoration: 'none', color: '#fff'}}>
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -30,11 +36,11 @@ export default class Header extends Component{
                         </div>
                         
                         <div className="whatsApp-api">
-                            <Link style={{textDecoration: 'none', color: "#fff"}} to="https://api.whatsapp.com/send?phone=5581987654321">
-                            <i className="fab fa-whatsapp">
-                            </i>
-                            (81)98765-4321
-                            </Link>
+                            <a href="https://api.whatsapp.com/send?phone=5581987654321" style={{textDecoration: 'none', color: '#fff'}}>
+                                <i className="fab fa-whatsapp">
+                                </i>
+                                (81)98765-4321
+                            </a>
                         </div>
                     </div>
                 </header>
