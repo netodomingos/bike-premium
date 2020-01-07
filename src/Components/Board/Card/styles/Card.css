@@ -1,4 +1,4 @@
-.cards-extern .cards{
+.cards-extern .cards1{
     display: flex;
     justify-content: space-around;
 }
@@ -60,10 +60,10 @@
     margin-left: 5px;
 }
 
-.cardProducts .buttons {
+/* .cardProducts .buttons {
     display: flex;
     justify-content: space-around;
-}
+} */
 
 /* .cardProducts .buttons .button1{
     outline: none;
@@ -78,6 +78,10 @@
     font-weight: bold;
     font-size: 25px;
     margin-left: 10px;
+}
+
+.short-description{
+    margin-top: 5px;
 }
 
 .cardProducts:hover{

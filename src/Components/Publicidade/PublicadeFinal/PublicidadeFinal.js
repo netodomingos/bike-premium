@@ -8,11 +8,11 @@ import './styles/PublicidadeFinal.css'
 export default function PublicidadeFinal() {
     return (
         <div>
-            <div className='banners'>
+            <div className='banners longos'>
                 <img src={BannerLargo} alt='Banner'/>
                 <img src={BannerLargo} alt='Banner'/>
             </div>
-            <div className='banners'>
+            <div className='banners pequenos'>
                 <img src={BannerPequeno} alt='Banner'/>
                 <img src={BannerPequeno} alt='Banner'/>
                 <img src={BannerPequeno} alt='Banner'/>

@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'Road Rage';
+    font-style: normal;
+    src: url('../../bikes-menu/font/Road_Rage.otf');    
+}
+
+.title{
+    margin-left: 30px;
+}
+
+.title h2{
+    font-family: 'Road Rage';
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}

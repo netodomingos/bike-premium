@@ -8,6 +8,7 @@ import PublicidadeHeader from '../../Components/Publicidade/PublicadadeHeader/Pu
 import Carousel from '../../Components/Carousel/Carousel'
 import BikeMenu from '../../Components/bikes-menu/BikeMenu'
 // import ProductList from '../../Components/Products/ProductList'
+import Title from '../../Components/Title/Title'
 import Board from '../../Components/Board/Board'
 import PublicadadeMain from '../../Components/Publicidade/PublicidadeMain/PublidadeMain'
 import Quadrado from '../../Components/Publicidade/PublicidadeQuadrado/Quadrado'
@@ -23,14 +24,16 @@ export default class Main extends Component{
                     <PublicidadeHeader/>
                     <Carousel/>
                     <BikeMenu/>
+                    <Title slogan='Destaques da Semana'/> 
                     <Board/>
-                    {/* <PublicadadeMain/>
+                    <PublicadadeMain/>
+                    <Title slogan='Melhores ofertas para você'/> 
                     <Board/>
                     <Quadrado/>
-                    <Board/>
+                    <Title slogan='Para você e sua bike'/> 
                     <Board/>
                     <PublicidadeFinal/>
-                    <Board/> */}
+                    <Board/>
                     
                 </React.Fragment>
             </div>

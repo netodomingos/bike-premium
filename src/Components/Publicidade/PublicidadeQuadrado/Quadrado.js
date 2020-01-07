@@ -7,10 +7,10 @@ export default function Quadrado() {
     return (
         <div>
             <div className='banner'>
-                <img src={Banner}/>
-                <img src={Banner}/>
-                <img src={Banner}/>
-                <img src={Banner}/>
+                <img src={Banner} alt='bannerQuadrado'/>
+                <img src={Banner} alt='bannerQuadrado'/>
+                <img src={Banner} alt='bannerQuadrado'/>
+                <img src={Banner} alt='bannerQuadrado'/>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ export const storeProducts = [
       shortDescription:'BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE, TRILHAS LEVES E USO URBANO.' ,
       info:
         "BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE, TRILHAS LEVES E USO URBANO. SÃO 4 TIPOS DE TAMANHOS DE QUADRO E CORES PARA VOCÊ ESCOLHER, O PESO TOTAL DA BIKE É DE 15.4KG MONTADA. A BIKE É DIRETA DA FÁBRICA OFICIAL COM MAIS DE 23 ANOS NO MERCADO E GARANTIA EXCLUSIVA COM SUPORTE DIFERENCIADO. SUPORTA ATÉ 120KGS.",
-      inCart: false,
+      inCart: true,
       count: 0,
       total: 0
     },
@@ -30,7 +30,7 @@ export const storeProducts = [
     {
       id: 3,
       title: 'Destaques da Semana!',
-      name: "BICICLETA GTS ARO 29",
+      name: "BICICLETA9",
       img: "img/product-1.png",
       price: 1240,
       company: "GTSM1",
