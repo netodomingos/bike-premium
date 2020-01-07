@@ -27,6 +27,18 @@
     
 }
 
+
+.cardProducts h5{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.cardProducts p {
+    color: #000;
+}
+
 .card-header-products p {
     color: #ffff;
     font-weight: bold;
@@ -34,13 +46,6 @@
     text-align: center;
     padding-top: 10px;
 }
-
-.cardProducts h5{
-    margin-top: 10px;
-    text-align: center;
-    font-size: 20px;
-}
-
 .cardProducts img{
     display: block;
     width: 240px;

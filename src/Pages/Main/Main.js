@@ -24,12 +24,14 @@ export default class Main extends Component{
                     <Carousel/>
                     <BikeMenu/>
                     <Board/>
-                    <PublicadadeMain/>
+                    {/* <PublicadadeMain/>
                     <Board/>
                     <Quadrado/>
                     <Board/>
                     <Board/>
                     <PublicidadeFinal/>
+                    <Board/> */}
+                    
                 </React.Fragment>
             </div>
         )
