@@ -90,3 +90,33 @@
     -moz-box-shadow:    3px 3px 9px 0px rgba(50, 50, 50, 0.54);
     box-shadow:         3px 3px 9px 0px rgba(50, 50, 50, 0.54);
 }
+
+.price-and-cart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price-and-cart .price {
+    font-weight: bold;
+    color: #000;
+    font-size: 35px;
+}
+
+.price-and-cart .cart-btn{
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    background: #1db954;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px; 
+    text-align: center;   
+    color: #fff;
+}
+
+.price-and-cart .cart-btn:hover{
+    background: linear-gradient( to right,  #1db954,  #1c9e49,  #1faf52 );
+    transition: .3s;
+}

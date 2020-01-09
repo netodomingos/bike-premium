@@ -7,7 +7,6 @@ import Header from '../../Components/Header/Header'
 import PublicidadeHeader from '../../Components/Publicidade/PublicadadeHeader/PublicidadeHeader'
 import Carousel from '../../Components/Carousel/Carousel'
 import BikeMenu from '../../Components/bikes-menu/BikeMenu'
-// import ProductList from '../../Components/Products/ProductList'
 import Title from '../../Components/Title/Title'
 import Board from '../../Components/Board/Board'
 import PublicadadeMain from '../../Components/Publicidade/PublicidadeMain/PublidadeMain'
@@ -34,7 +33,6 @@ export default class Main extends Component{
                     <Board/>
                     <PublicidadeFinal/>
                     <Board/>
-                    
                 </React.Fragment>
             </div>
         )
