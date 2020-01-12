@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import './Search.css'
@@ -8,8 +8,17 @@ import user from './img/user.png'
 import cart from './img/cart.png'
 import favourite from './img/favourite.png'
 
-export default class Search extends Component{
-    render(){
+export default function Search (){
+
+    const Search = ({ props }) => {
+        const [ searchValue, setSearchValue ] = useState('')
+
+        const handleSearchInputChange = (event) => {
+            setSearchValue(event.target.value)
+        }
+
+    }
+
         return (
             <header className='header-top-2'>
                 <div className="brand">
@@ -20,7 +29,7 @@ export default class Search extends Component{
 
                 <div className="input-search">
                     <div className="input-group input-group-lg">
-                        <input type="text" className="search-input" placeholder="Pesquise aqui" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                        <input type="text" className="search-input" placeholder="Pesquise aqui" aria-label="Recipient's username" aria-describedby="button-addon2" />
                              <div className="input-group-append">
                                 <button className="search-button" type="button">
                                     <i className="fas fa-search" style={{color: '#fff'}}></i>
@@ -71,5 +80,4 @@ export default class Search extends Component{
         </header>
 
         )
-    }
 }

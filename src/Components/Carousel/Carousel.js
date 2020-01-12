@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Carousel as CarouselBootStrap, CarouselItem } from 'react-bootstrap'
 
+import './styles/Carousel.css'
 import Bike from './img/bike.jpg'
 
 export default class Carousel extends Component {
@@ -9,7 +10,7 @@ export default class Carousel extends Component {
         return (
             <CarouselBootStrap>
                 <CarouselItem>
-                    <img src={Bike} height={500} alt='bike' />
+                    <img src={Bike} height={500} alt='bike'/>
                 </CarouselItem>
                 <CarouselItem>
                     <img src={Bike} height={500} alt='bike' />
