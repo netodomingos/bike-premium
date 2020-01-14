@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/bike-premium/static/css/main.6764aacf.chunk.css",
+    "main.js": "/bike-premium/static/js/main.abca6289.chunk.js",
+    "main.js.map": "/bike-premium/static/js/main.abca6289.chunk.js.map",
+    "runtime-main.js": "/bike-premium/static/js/runtime-main.34179f7a.js",
+    "runtime-main.js.map": "/bike-premium/static/js/runtime-main.34179f7a.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/bike-premium/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.7c04571e.chunk.js": "/bike-premium/static/js/2.7c04571e.chunk.js",
+    "static/js/2.7c04571e.chunk.js.map": "/bike-premium/static/js/2.7c04571e.chunk.js.map",
+    "index.html": "/bike-premium/index.html",
+    "precache-manifest.46869d4f8cf41774b97c5a00fcd35116.js": "/bike-premium/precache-manifest.46869d4f8cf41774b97c5a00fcd35116.js",
+    "service-worker.js": "/bike-premium/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/bike-premium/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.6764aacf.chunk.css.map": "/bike-premium/static/css/main.6764aacf.chunk.css.map",
+    "static/js/2.7c04571e.chunk.js.LICENSE": "/bike-premium/static/js/2.7c04571e.chunk.js.LICENSE",
+    "static/media/Banner.png": "/bike-premium/static/media/Banner.ecefa4a8.png",
+    "static/media/BannerLargo.png": "/bike-premium/static/media/BannerLargo.f439cf2d.png",
+    "static/media/BannerPequeno.png": "/bike-premium/static/media/BannerPequeno.537bf1d3.png",
+    "static/media/Ciclista.png": "/bike-premium/static/media/Ciclista.ed9811d8.png",
+    "static/media/Title.css": "/bike-premium/static/media/Road_Rage.16501323.otf",
+    "static/media/asfalto.png": "/bike-premium/static/media/asfalto.7faa6da0.png",
+    "static/media/banner.png": "/bike-premium/static/media/banner.a92c4782.png",
+    "static/media/bicycle.svg": "/bike-premium/static/media/bicycle.0fd8b355.svg",
+    "static/media/bike.jpg": "/bike-premium/static/media/bike.286c8c03.jpg",
+    "static/media/bmx.png": "/bike-premium/static/media/bmx.3d43264e.png",
+    "static/media/logo.png": "/bike-premium/static/media/logo.2b6bc9b2.png",
+    "static/media/passeio.png": "/bike-premium/static/media/passeio.b5858f96.png",
+    "static/media/propaganda.png": "/bike-premium/static/media/propaganda.d495970f.png",
+    "static/media/trilhas.png": "/bike-premium/static/media/trilhas.3de509c9.png",
+    "static/media/user.png": "/bike-premium/static/media/user.f394b483.png",
+    "static/media/wave.png": "/bike-premium/static/media/wave.6d252a00.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34179f7a.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.7c04571e.chunk.js",
+    "static/css/main.6764aacf.chunk.css",
+    "static/js/main.abca6289.chunk.js"
+  ]
+}
