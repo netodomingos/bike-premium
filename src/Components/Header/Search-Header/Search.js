@@ -8,17 +8,11 @@ import user from './img/user.png'
 import cart from './img/cart.png'
 import favourite from './img/favourite.png'
 
-export default function Search (){
+const searchTerm = ({props}) => {
+    return props
+}
 
-    const Search = ({ props }) => {
-        const [ searchValue, setSearchValue ] = useState('')
-
-        const handleSearchInputChange = (event) => {
-            setSearchValue(event.target.value)
-        }
-
-    }
-
+function Search (){
         return (
             <header className='header-top-2'>
                 <div className="brand">
@@ -29,11 +23,13 @@ export default function Search (){
 
                 <div className="input-search">
                     <div className="input-group input-group-lg">
-                        <input type="text" className="search-input" placeholder="Pesquise aqui" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <input type="text" className="search-input" placeholder="Pesquise aqui" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={(event) => { searchTerm(event.target.value)}} />
                              <div className="input-group-append">
-                                <button className="search-button" type="button">
-                                    <i className="fas fa-search" style={{color: '#fff'}}></i>
-                                </button>
+                                 <Link to='/search' style={{ textDecoration: 'none' }}>
+                                    <button className="search-button" type="button">
+                                        <i className="fas fa-search" style={{color: '#fff'}}></i>
+                                    </button>
+                                 </Link>
                             </div>
                     </div>
                 </div>
@@ -81,3 +77,5 @@ export default function Search (){
 
         )
 }
+
+export { Search, searchTerm }

@@ -116,12 +116,12 @@ export const storeProducts = [
   
   export const detailProduct = {
     id: 1,
-    title: "Google Pixel - Black",
+    title: "BICICLETA GTS ARO 29",
     img: "img/product-1.png",
-    price: 10,
-    company: "google",
+    price: 1299,
+    company: "GTSM1",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "BICICLETA GTSM1 É IDEAL PARA QUEM QUER COMEÇAR NO MOUNTAIN BIKE, TRILHAS LEVES E USO URBANO. SÃO 4 TIPOS DE TAMANHOS DE QUADRO E CORES PARA VOCÊ ESCOLHER, O PESO TOTAL DA BIKE É DE 15.4KG MONTADA. A BIKE É DIRETA DA FÁBRICA OFICIAL COM MAIS DE 23 ANOS NO MERCADO E GARANTIA EXCLUSIVA COM SUPORTE DIFERENCIADO. SUPORTA ATÉ 120KGS.",
     inCart: false,
     count: 0,
     total: 0
