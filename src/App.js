@@ -8,6 +8,7 @@ import SearchPage from './Pages/SeachPage/SearchPage'
 import Cart from './Pages/Cart/Cart'
 import Details from './Pages/Details/Details'
 import Default  from './Pages/Default/Default'
+import Modal from './Components/modals/Modal'
 
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
           <Route path='/cadastro' component={Cadastro}/>
           <Route path='/cart' component={Cart} />
           <Route path='/details' exact component={Details}/>
+          <Route path='/modal' /> 
           <Route component={Default}/>
         </Switch>
+        <Modal/>
       </Router>
 
     </div>

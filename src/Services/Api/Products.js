@@ -116,7 +116,7 @@ export const storeProducts = [
   
   export const detailProduct = {
     id: 1,
-    title: "BICICLETA GTS ARO 29",
+    name: "BICICLETA GTS ARO 29",
     img: "img/product-1.png",
     price: 1299,
     company: "GTSM1",

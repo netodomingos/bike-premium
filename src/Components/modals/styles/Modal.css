@@ -1,0 +1,73 @@
+@font-face{
+    font-family: 'Road Rage';
+    font-style: normal;
+    src: url('../../bikes-menu/font/Road_Rage.otf');    
+}
+
+
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.295);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal{
+    background: rgb(206, 206, 206);
+    border-radius: 10px;
+    width: 500px;
+}
+
+.informations .title-1{
+    font-family: 'Road Rage';
+    font-size: 30px;
+}
+
+.informations img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informations .title-2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.informations .price{
+    font-weight: bold;
+}
+
+.informations .button-modal{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.informations .primeiro{
+    margin-right: 10px;
+    background: #1ac556;
+    color: rgb(223, 223, 223);
+    font-weight: bold;
+}
+
+.informations .primeiro:hover{
+    background: #18ad4c;
+    transition: .5s;
+}
+
+.informations .segundo{
+    background: #fbb034;
+    font-weight: bold;
+}
+
+.informations .segundo:hover{
+    background: #db982d;
+    transition: .5s;
+}
