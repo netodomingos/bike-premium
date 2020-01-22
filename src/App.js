@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route path='/' exact component={Main}/>
-          <Route path='/search' exact component={SearchPage}/>
+          <Route path='/search:id'  component={SearchPage}/>
           <Route path='/login'  component={Login} />
           <Route path='/cadastro' component={Cadastro}/>
           <Route path='/cart' component={Cart} />

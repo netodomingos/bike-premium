@@ -1,0 +1,78 @@
+ul{
+    margin-left: 10px;
+}
+ul li{
+    list-style: none;
+}
+ul li h5{
+    text-align: start;
+    text-align: center;
+}
+
+.imagem-bike{
+    width: 250px;
+    /* margin-right: 90px; */
+}
+
+.column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+}
+.quantidade  li {
+display: inline-block;
+
+}
+
+.botao{
+    border: none;
+    outline: none;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: #fff;
+    height: 65px;
+    padding: 0 15px 0 15px;
+    margin-left: 5px;
+}
+
+
+.menos{
+    margin-left: 5px;
+}
+
+.entrega-cart{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.price-cart{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.name-cart{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.trash-button{
+    margin-left: 80px;
+    background-color: rgb(247, 93, 37);
+}
+
+.produtos-cart{
+    display: flex;
+    justify-content: space-evenly;
+}

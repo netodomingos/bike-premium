@@ -1,0 +1,28 @@
+.container-cart{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    
+}
+.img-cart{
+    width: 600px;
+    margin-bottom: 150px
+}
+
+.container-cart-button{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.container-cart-button button{
+    margin-bottom: 250px;
+}
