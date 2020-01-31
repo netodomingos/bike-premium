@@ -28,7 +28,7 @@ import './styles/Card.css'
                                     </Link>
                                     <p className='short-description'>{shortDescription}</p>
                                     <div className='price-and-cart'>
-                                    <p className='price'>{price}</p>
+                                    <p className='price'>R$ {price}</p>
                                         <button
                                             className='cart-btn'
                                             disabled={inCart ? true : false }

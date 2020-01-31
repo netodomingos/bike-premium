@@ -42,8 +42,8 @@ export const storeProducts = [
       total: 0
     },
     {
-        id: 4,
-        title: 'Destaques da Semana!',
+      id: 4,
+      title: 'Destaques da Semana!',
       name: "BICICLETA GTS ARO 29",
       img: "img/product-1.png",
       price: 1240,
